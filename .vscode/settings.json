@@ -1,0 +1,13 @@
+{
+    "java.jdt.ls.java.home": "C:\\Program Files\\BellSoft\\LibericaJDK-21-Full",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "C:\\Program Files\\BellSoft\\LibericaJDK-21-Full",
+            "default": true
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

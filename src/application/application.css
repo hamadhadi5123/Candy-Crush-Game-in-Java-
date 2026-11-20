@@ -1,0 +1,199 @@
+/* ==============================================================
+   CANDY CRUSH PROFESSIONAL STYLESHEET
+   ============================================================== */
+
+.root {
+    -fx-font-family: 'Segoe UI', 'Arial Rounded MT Bold', 'Helvetica Neue', sans-serif;
+}
+
+/* Glassmorphism Card Container */
+.glass-panel {
+    -fx-background-color: rgba(25, 15, 40, 0.82);
+    -fx-background-radius: 24px;
+    -fx-border-color: rgba(255, 255, 255, 0.25);
+    -fx-border-radius: 24px;
+    -fx-border-width: 1.5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.45), 25, 0, 0, 8);
+    -fx-padding: 24px;
+}
+
+.glass-panel-light {
+    -fx-background-color: rgba(255, 255, 255, 0.88);
+    -fx-background-radius: 24px;
+    -fx-border-color: rgba(255, 255, 255, 0.6);
+    -fx-border-radius: 24px;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 25, 0, 0, 8);
+    -fx-padding: 24px;
+}
+
+/* HUD Sidebar Card */
+.hud-card {
+    -fx-background-color: linear-gradient(to bottom, rgba(35, 18, 55, 0.88), rgba(20, 10, 35, 0.92));
+    -fx-background-radius: 20px;
+    -fx-border-color: rgba(255, 105, 180, 0.4);
+    -fx-border-radius: 20px;
+    -fx-border-width: 1.5px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 18, 0, 0, 6);
+}
+
+/* Stat Badges */
+.stat-badge {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+    -fx-background-radius: 14px;
+    -fx-border-color: rgba(255, 255, 255, 0.15);
+    -fx-border-radius: 14px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 12px;
+}
+
+.stat-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFAAA6;
+    -fx-letter-spacing: 1px;
+}
+
+.stat-value {
+    -fx-font-size: 20px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Glowing Progress Bar */
+.candy-progress .track {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 10px;
+}
+
+.candy-progress .bar {
+    -fx-background-color: linear-gradient(to right, #FF1493, #FF8C00, #00FF7F);
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 20, 147, 0.7), 10, 0, 0, 0);
+}
+
+/* Candy Button Styles */
+.candy-btn-primary {
+    -fx-background-color: linear-gradient(to bottom, #FF2E93, #D80064);
+    -fx-background-radius: 28px;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10px 24px;
+    -fx-effect: dropshadow(gaussian, rgba(216, 0, 100, 0.6), 14, 0, 0, 4);
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-radius: 28px;
+    -fx-border-width: 1.5px;
+}
+
+.candy-btn-primary:hover {
+    -fx-background-color: linear-gradient(to bottom, #FF55A8, #E80075);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+    -fx-effect: dropshadow(gaussian, rgba(255, 46, 147, 0.85), 18, 0, 0, 6);
+}
+
+.candy-btn-primary:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.candy-btn-success {
+    -fx-background-color: linear-gradient(to bottom, #00E676, #00A344);
+    -fx-background-radius: 28px;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 10px 24px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 200, 83, 0.55), 14, 0, 0, 4);
+    -fx-border-color: rgba(255, 255, 255, 0.4);
+    -fx-border-radius: 28px;
+    -fx-border-width: 1.5px;
+}
+
+.candy-btn-success:hover {
+    -fx-background-color: linear-gradient(to bottom, #33FF99, #00C853);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+    -fx-effect: dropshadow(gaussian, rgba(0, 230, 118, 0.8), 18, 0, 0, 6);
+}
+
+.candy-btn-success:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+.candy-btn-secondary {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 28px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 9px 20px;
+    -fx-border-color: rgba(255, 255, 255, 0.35);
+    -fx-border-radius: 28px;
+    -fx-border-width: 1.5px;
+}
+
+.candy-btn-secondary:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.28);
+    -fx-scale-x: 1.04;
+    -fx-scale-y: 1.04;
+}
+
+.candy-btn-icon {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 50%;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-min-width: 42px;
+    -fx-min-height: 42px;
+    -fx-max-width: 42px;
+    -fx-max-height: 42px;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-radius: 50%;
+}
+
+.candy-btn-icon:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-scale-x: 1.08;
+    -fx-scale-y: 1.08;
+}
+
+/* Modern Text Inputs */
+.candy-input {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 16px;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 16px;
+    -fx-border-width: 1.5px;
+    -fx-padding: 10px 16px;
+    -fx-font-size: 15px;
+    -fx-text-fill: #1A202C;
+}
+
+.candy-input:focused {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FF1493;
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(gaussian, rgba(255, 20, 147, 0.4), 10, 0, 0, 2);
+}
+
+/* Board Candy Cell */
+.candy-cell {
+    -fx-cursor: hand;
+}
+
+.candy-cell:hover {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.8), 12, 0, 0, 0);
+}
+
+.candy-selected {
+    -fx-effect: dropshadow(gaussian, #00FFFF, 18, 0.8, 0, 0);
+}

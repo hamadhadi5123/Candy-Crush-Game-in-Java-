@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Candy Crush",
+            "request": "launch",
+            "mainClass": "Candy1/application.Candy01",
+            "projectName": "Candy1"
+        },
+        {
+            "type": "java",
+            "name": "Candy Crush (via Main)",
+            "request": "launch",
+            "mainClass": "Candy1/application.Main",
+            "projectName": "Candy1"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Candy Crush",
+            "type": "shell",
+            "command": "\"C:\\Program Files\\BellSoft\\LibericaJDK-21-Full\\bin\\java.exe\" -cp \"bin;lib/*;Images;.\" application.Candy01",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Candy Crush",
+            "type": "shell",
+            "command": "\"C:\\Program Files\\BellSoft\\LibericaJDK-21-Full\\bin\\javac.exe\" -d bin -cp \"bin;lib/*;Images;.\" src\\module-info.java src\\application\\*.java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
